@@ -4,9 +4,6 @@
 CTBot myBot;
 TBMessage msg;
 
-const String ssid = "Vírus grátis 2.4";                                // REPLACE mySSID WITH YOUR WIFI SSID
-const String pass = "temcerteza";                                      // REPLACE myPassword YOUR WIFI PASSWORD, IF ANY
-const String token = "1286384184:AAEnco2JfKpeU6asjlFy0iXhvQNMPB6mBaM"; // REPLACE myToken WITH YOUR TELEGRAM BOT TOKEN
 
 #include <ESP8266HTTPClient.h> //Network HTTP librarie
 #include <NTPClient.h>         //Network time protocol lib.
