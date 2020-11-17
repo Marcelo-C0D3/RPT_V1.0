@@ -1,12 +1,10 @@
 #include <Arduino.h>
 
 #include "CTBot.h"
-CTBot myBot;
-TBMessage msg;
 
-const String ssid = "Vírus grátis 2.4";                                // REPLACE mySSID WITH YOUR WIFI SSID
-const String pass = "temcerteza";                                      // REPLACE myPassword YOUR WIFI PASSWORD, IF ANY
-const String token = "1286384184:AAEnco2JfKpeU6asjlFy0iXhvQNMPB6mBaM"; // REPLACE myToken WITH YOUR TELEGRAM BOT TOKEN
+// const String ssid = "Vírus grátis 2.4";                                // REPLACE mySSID WITH YOUR WIFI SSID
+// const String pass = "temcerteza";                                      // REPLACE myPassword YOUR WIFI PASSWORD, IF ANY
+// const String token = "1286384184:AAEnco2JfKpeU6asjlFy0iXhvQNMPB6mBaM"; // REPLACE myToken WITH YOUR TELEGRAM BOT TOKEN
 
 #include <ESP8266HTTPClient.h> //Network HTTP librarie
 #include <NTPClient.h>         //Network time protocol lib.
@@ -15,13 +13,13 @@ const String token = "1286384184:AAEnco2JfKpeU6asjlFy0iXhvQNMPB6mBaM"; // REPLAC
 #include <ESP8266WebServer.h>  //Local WebServer used to serve the configuration portal
 #include <WiFiClient.h>
 #include <main.h> //Progam Main Radio_Pio_v2
-
-bool shouldSaveConfig = false;                                                                      //Flag Save  config WiFi
-char daysOfTheWeek[7][12] = {"Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sabado"}; //Dayes of week :D
+#include <acess.h>
 
 Manager go; // reference to class main
+Acess cred;
 // Define NTP Client to get time
-HTTPClient http;
+CTBot myBot;
+HTTPClient http; //ver situations
 WiFiClient client;
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "pool.ntp.org", go.utcOffsetInSeconds);
@@ -36,18 +34,17 @@ void setup()
 
   Serial.println("Starting TelegramBot...");
 
-  // connect the ESP8266 to the desired access point
-  myBot.wifiConnect(ssid, pass);
-
-  // set the telegram bot token
-  myBot.setTelegramToken(token);
+  Serial.println(cred.checkWiFiConect());
 
   // check if all things are ok
   if (myBot.testConnection())
+  {
     Serial.println("\ntestConnection OK");
+  }
   else
-    Serial.println("\ntestConnection NOK");
-
+  {
+    Serial.println(cred.checkWiFiConect());
+  }
   go.usrInit();
 }
 
@@ -64,32 +61,27 @@ void loop()
   }
 }
 
-void Manager::checkMessage(String &message)
+String Acess::checkWiFiConect()
 {
-
-  // if there is an incoming message...
-  if (myBot.getNewMessage(msg))
+  String message;
+  if (myBot.testConnection())
   {
-    Serial.println(msg.text);
-    Serial.println(msg.sender.id);
-    Serial.println(sending(somMaior, assunto));
+    message = "testConnection OK";
   }
-  // wait 500 milliseconds
-  //delay(500);
+  else
+  {
+    myBot.wifiConnect(ssid, pass);
+    myBot.setTelegramToken(token);
+    message = "Conect....";
+  }
+
+  return message;
 }
 
 String Manager::sending(const int64_t &to, String &message)
 {
 
-  if (myBot.testConnection())
-  {
-    Serial.println("\ntestConnection OK");
-  }
-  else
-  {
-    myBot.wifiConnect(ssid, pass);
-    Serial.println("\nReconect....");
-  }
+  Serial.println(cred.checkWiFiConect());
   // ...forward it to the sender
   //myBot.sendMessage(msg.sender.id, msg.text);
   myBot.sendMessage(to, message);
@@ -146,20 +138,20 @@ void Manager::callMedia()
     x = 200;
     break;
   case 200:
+
     if (med4 > altOnda)
     {
-      Serial.println("reset 2");
       _timeout2 = false;
       reset_timer2();
       //yield();
     }
     else
     {
-      Serial.println("reset 1");
       _timeout1 = false;
       reset_timer1();
     }
-    go.report();
+    report();
+    botCommand();
     x = 1;
     break;
   default:
@@ -174,7 +166,6 @@ void Manager::report()
 
   if (_timeout3)
   {
-    //timerReport();
     digitalWrite(D5, !digitalRead(D5));
     _timeout3 = false;
     reset_timer3();
@@ -185,19 +176,54 @@ void Manager::report()
   {
     state = 2;
     assunto = "A rádio está fora do ar, ou Sem áudio perceptível.";
-    Serial.println(sending(somMaior, assunto));
+    Serial.println(sending(cred.somMaior, assunto));
 
+    estado = "Fora Do Ar";
     queda = day + ", " + hours + ":" + minutes + "\n";
     relatorio = relatorio + queda;
   }
   else if (_timeout1 && (state == 0 || state == 2))
   {
     state = 1;
-    assunto = "A rádio está ativa e estável.";
-    Serial.println(sending(somMaior, assunto));
+    estado = "Ativa e estavel";
+    assunto = "A rádio está novamente ativa e estável.";
+    Serial.println(sending(cred.somMaior, assunto));
   }
 }
 
+void Manager::botCommand()
+{
+  TBMessage msg;
+
+  if (myBot.getNewMessage(msg))
+  {
+    //Serial.println(msg.text);
+    if (msg.text.equalsIgnoreCase("/state"))
+    {
+      Serial.println(sending(cred.somMaior, estado));
+    }
+    else if (msg.text.equalsIgnoreCase("/relat"))
+    {
+      if (relatorio == relatControl)
+      {
+        assunto = " A rádio não apresentou nenhuma queda nas ultimas 24H.";
+        Serial.println(sending(cred.somMaior, assunto));
+      }
+      else
+      {
+        Serial.println(sending(cred.somMaior, relatorio));
+      }
+    }
+    else if (msg.text.equalsIgnoreCase("/help"))
+    {
+      Serial.println(sending(cred.somMaior, help));
+    }
+    else
+    {
+      Serial.println(sending(cred.somMaior, tryThis));
+    }
+  }
+}
 // function to reprot relat in time exact;
 void Manager::timerReport()
 {
@@ -211,25 +237,45 @@ void Manager::timerReport()
   Serial.print(":");
   Serial.print(minutes);
   Serial.println();
+  Serial.println(timeClient.getDay());
 
-  if (relatorio != relatControl && timeClient.getMinutes() == hReport && idRelat == 0)
+  if (relatorio != relatControl && timeClient.getHours() == hReport && idRelat == 0)
   {
     idRelat = 1;
     assunto = relatorio;
-    Serial.println(sending(somMaior, assunto));
+    Serial.println(sending(cred.somMaior, assunto));
   }
   else if (relatorio == relatControl && timeClient.getHours() == hReport && idRelat == 0)
   {
     idRelat = 1;
-    assunto = "A rádio não apresentou nenhuma queda nas ultimas 24H.";
-    assunto = " /n A rádio  \n não apresentou \n nenhuma  /n queda nas \n ultimas 24H.";
-    Serial.println(sending(somMaior, assunto));
+    assunto = " A rádio não apresentou nenhuma queda nas ultimas 24H.";
+    Serial.println(sending(cred.somMaior, assunto));
   }
   else if (timeClient.getHours() == (hReport + 1) && idRelat == 1)
   {
     idRelat = 0;
     relatorio = relatControl;
   }
+
+    //day off week report teste
+  // if (relatorio != relatControl && timeClient.getDay() == dayReport && idRelat == 0)
+  // {
+  //   idRelat = 1;
+  //   assunto = relatorio;
+  //   Serial.println(sending(cred.somMaior, assunto));
+  // }
+  // else if (relatorio == relatControl && timeClient.getDay() == dayReport && idRelat == 0)
+  // {
+  //   idRelat = 1;
+  //   assunto = "A rádio não apresentou nenhuma queda esta Semana";
+  //   Serial.println(sending(cred.somMaior, assunto));
+  // }
+  // else if (timeClient.getDay() == (dayReport + 1) && idRelat == 1)
+  // {
+  //   idRelat = 0;
+  //   relatorio = relatControl;
+  // }
+
 }
 
 // inicia  Timers
