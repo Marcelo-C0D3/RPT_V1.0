@@ -8,11 +8,9 @@ private:
   const int dayReport = 1;
 
   const String relatControl = "Relatorio de quedas: \n";
-  // const char *serveName = "Radio_Monitor";
-  // const char *servePass = "s3nh4321";
 
   int T = 50000;
-  int chargingT = 30000;
+  int reqNTP = 40000;
   
 public:
   
