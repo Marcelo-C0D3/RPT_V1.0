@@ -28,3 +28,17 @@
   <img src="https://img.shields.io/badge/CTBot-V.2.1.3-red?style=flat"/>
   <img src="https://img.shields.io/badge/NTPClient-V.3.1.0-red?style=flat"/>
 </p>
+
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Sobre](#Sobre)
+   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Instalação](#instalacao)
+   * [Como usar](#como-usar)
+      * [Pre Requisitos](#pre-requisitos)
+      * [Local files](#local-files)
+      * [Remote files](#remote-files)
+      * [Multiple files](#multiple-files)
+      * [Combo](#combo)
+<!--te-->
