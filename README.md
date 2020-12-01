@@ -35,7 +35,7 @@
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Sobre](#Sobre)
+   * [Sobre](#sobre)
    * [Tabela de Conteudo](#tabela-de-conteudo)
    * [Instalação](#instalacao)
    * [Como usar](#como-usar)
