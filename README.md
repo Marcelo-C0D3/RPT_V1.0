@@ -37,7 +37,7 @@ Tabela de conteúdos
 <!--ts-->
    * [Sobre](#sobre)
    * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Instalação](#instalacao)
+   * [Instalação](#instalação)
    * [Como usar](#como-usar)
       * [Pre Requisitos](#pre-requisitos)
       * [Local files](#local-files)
