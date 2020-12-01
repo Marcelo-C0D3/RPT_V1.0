@@ -46,7 +46,7 @@ Tabela de conteúdos
       * [Combo](#combo)
 <!--te-->
 
-# InstalaçãO
+# Instalação
 
 
 # Como Usar
