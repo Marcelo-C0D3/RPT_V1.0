@@ -75,7 +75,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
   </a>
 </h1>
 
-# 💻  Instalação
+# 💻  The Project
 ### Hardware && Conection
   - [x] Espressif8266
   - [x] Placa Esp-12E
@@ -92,12 +92,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 # Como Usar
 
 
-# pre-requisitos
-
-
 ## 👨‍💻 Contribuidores
 
-Thank you to very boys!)
+Agradecimentos a equipe de feras que montou este projeto ->  💖💖💖💖
 
 <table align="center" >
   <tr>
