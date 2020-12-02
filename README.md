@@ -116,7 +116,7 @@ Agradecimentos a equipe de contribuidores que lutou até o fim  deste projeto ->
     </td>
     <td align="center"><a href="https://github.com/vagner-rodrigues"><img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/56330822/100861217-4693b980-3470-11eb-8c77-90ca5814acae.jpg" width="120px;" alt=""/><br /><sub><b>Vagner Rodrigues</b></sub></a><br /><a href="https://www.linkedin.com/in/vagner-da-silva-rodrigues-39ab2040/" title="Profile">🎓Professional🎓</a>
     </td>
-    <td align="center"><a href="https://github.com/ruzarek"><img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/56330822/100891635-3d1e4780-3498-11eb-918c-73f62551556c.jpeg" width="120px;" alt=""/><br /><sub><b>Aero Man</b></sub></a><br /><a href="" title="Profile">🎓Professional🎓</a>
+    <td align="center"><a href="https://github.com/ruzarek"><img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/56330822/100891690-4dcebd80-3498-11eb-8747-d14c6a35b43b.jpeg" width="120px;" alt=""/><br /><sub><b>Aero Man</b></sub></a><br /><a href="" title="Profile">🎓Professional🎓</a>
     </td>
     
   </tr>
