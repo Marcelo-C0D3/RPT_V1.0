@@ -30,7 +30,7 @@
 </p>
 
 # Sobre
-### aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+###### Este proejto é relacionado a pesquisa e desenvolvimento, de um protótipo experimental para uma emissora de rádio, que busca automatizar seu processo de monitoramento quanto ao funcionamento de sua rádio. O projeto em questão integra hardware e software em um protótipo funcional experimental, com base em um microcontrolador (nodeMCU), que por sua vez faz todo o processamento da informação e a conexão a nuvem, tornando-se um projeto voltado a área de IoT, que por sua vez pode ser integrado a diversas plataformas e serviços.
 
 Tabela de conteúdos
 =================
