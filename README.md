@@ -89,6 +89,14 @@ As seguintes ferramentas foram usadas na construção do projeto:
 </h1>
 
 <h1 align="center">
+  Battery(2x)
+ </h1>
+<h1 align="center">
+  <a align="center" href="https://www.filipeflop.com/produto/bateria-li-ion-18650-2200mah/">
+    <img width="600" src="https://user-images.githubusercontent.com/56330822/100894468-4826a700-349b-11eb-927e-88783c76a886.jpg
+</h1>
+
+<h1 align="center">
   Charger
  </h1>
 <h1 align="center">
