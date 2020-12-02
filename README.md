@@ -124,29 +124,27 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[VS Code](https://code.visualstudio.com/Download), [PlatformIO](https://platformio.org/). 
+[VS Code](https://code.visualstudio.com/Download), [PlatformIO](https://platformio.org/), [Git Bash](https://git-scm.com/downloads)(opcional). 
 
-Voce pode usar o Vs code coomo editor para trabalhar com o código e ainda executar os codigos com a extenssão do PlatformIo
+Voce pode usar o VS Code como editor para trabalhar com o código e ainda executar os codigos com a extenssão do PlatformIO, tudo em uma mesma platforma.
 
 ### 🎲 Rodando o Projeto (RPT_V1.0)
 
 ```bash
+# Acesse o diretorio que deseja Salvar o projeto.
+Execute o bash (opcional).
+
 # Clone este repositório
-$ git clone <https://github.com/tgmarinho/nlw1>
+$ git clone <https://github.com/Marcelo-C0D3/RPT_V1.0>
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
+# Acesse a pasta do projeto no terminal/cmd/bash
+$ cd RPT_V1.0
 
-# Vá para a pasta server
-$ cd server
+# Abra a pasta com o projeto nbo VS Code.
+$ code .
 
-# Instale as dependências
-$ npm install
+# Execute a aplicação
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
-
-# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 ```
 
 # ➕  Inf+
