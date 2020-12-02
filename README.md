@@ -30,7 +30,6 @@
 </p>
 
 # Tabela de conteúdos
-=================
 <!--ts-->
    * [Sobre](#sobre)
    * [Tabela de Conteudo](#tabela-de-conteudo)
@@ -38,16 +37,6 @@
    * [Instalação](#instalação)
    * [Como usar](#como-usar)
 <!--te-->
-
-# Especificações
-<h1 align="center">
-  NodeMCU
- </h1>
-<h1 align="center">
-  <a align="center" href="https://www.nodemcu.com/index_en.html">
-    <img width="600" src="https://user-images.githubusercontent.com/56330822/100844664-ea726a80-345a-11eb-8f08-16a0e13dc470.PNG">
-  </a>
-</h1>
 
 # Sobre
 ###### Este relatório contém conteúdo relacionado as atividades desenvolvidas durante o período de bolsa de estudos na área de pesquisa e desenvolvimento tecnológico da faculdade SATC, localizada no município de Criciúma, Rua Pascoal Meller, 73, bairro Universitário. Nesta bolsa de estudos foi desenvolvido um protótipo experimental de um sistema de monitoramento de emissoras de rádio. O projeto em questão integra hardware e software em um protótipo funcional experimental, com base em um microcontrolador (nodeMCU), que por sua vez faz todo o processamento da informação e a conexão a nuvem, tornando-se um projeto voltado a área de IoT e possibilitando ser integrado a diversas plataformas e serviços.
@@ -58,6 +47,16 @@
 # ⚙️ Funcionalidades
 
 # 🛠 Tecnologias
+
+# Especificações
+<h1 align="center">
+  NodeMCU
+ </h1>
+<h1 align="center">
+  <a align="center" href="https://www.nodemcu.com/index_en.html">
+    <img width="600" src="https://user-images.githubusercontent.com/56330822/100844664-ea726a80-345a-11eb-8f08-16a0e13dc470.PNG">
+  </a>
+</h1>
 
 # Instalação
 ### Hardware && Conection
