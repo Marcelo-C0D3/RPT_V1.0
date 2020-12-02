@@ -149,9 +149,37 @@ Se tudo estiver correto a task bar a seguir deve aparecer na parte inferior do V
 <h4 align="center">
   Task Bar PlatformIO
  </h4>
-<h1 align="center">
-    <img width="900" src="https://user-images.githubusercontent.com/56330822/100916968-479b0a00-34b5-11eb-9e6f-88054d4b0778.PNG">
-</h1>
+<h4 align="center">
+    <img width="1000" src="https://user-images.githubusercontent.com/56330822/100916968-479b0a00-34b5-11eb-9e6f-88054d4b0778.PNG">
+</h4>
+
+<h4 align="center">
+  Build O projeto
+ </h4>
+<h4 align="center">
+    <img width="1000" src="https://user-images.githubusercontent.com/56330822/100918458-42d75580-34b7-11eb-9666-b390ee85cb0f.PNG">
+</h4>
+
+<h4 align="center">
+  Carregue o projeto para o Microcontrolador
+ </h4>
+<h4 align="center">
+    <img width="1000" src="https://user-images.githubusercontent.com/56330822/100918566-67cbc880-34b7-11eb-900d-dac8b9717f65.PNG">
+</h4>
+
+<h4 align="center">
+  Voce pode verificar a saida no monitor
+ </h4>
+<h4 align="center">
+    <img width="1000" src="https://user-images.githubusercontent.com/56330822/100918631-7f0ab600-34b7-11eb-9729-dce9bc15010d.PNG">
+</h4>
+
+<h4 align="center">
+  Task Bar PlatformIO
+ </h4>
+<h4 align="center">
+    <img width="1000" src="https://user-images.githubusercontent.com/56330822/100918458-42d75580-34b7-11eb-9666-b390ee85cb0f.PNG">
+</h4>
 
 # ➕  Inf+
 ## 👨‍💻  Contribuidores
