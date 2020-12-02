@@ -44,7 +44,7 @@
    * [Sobre](#sobre)
    * [Funcionalidades](#funcionalidades)
    * [Tecnologias](#tecnologias)
-   * [Especificações](#especificações)
+   * [Especificações](#--especificações)
    * [Como usar](#como-usar)
    * [More Inf+](#more-inf)
 <!--te-->
