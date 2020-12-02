@@ -121,6 +121,33 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 # 🧭  Como Usar
 
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[VS Code](https://code.visualstudio.com/Download), [PlatformIO](https://platformio.org/). 
+
+Voce pode usar o Vs code coomo editor para trabalhar com o código e ainda executar os codigos com a extenssão do PlatformIo
+
+### 🎲 Rodando o Projeto (RPT_V1.0)
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/tgmarinho/nlw1>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd nlw1
+
+# Vá para a pasta server
+$ cd server
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev:server
+
+# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
+```
 
 # ➕  Inf+
 ## 👨‍💻  Contribuidores
