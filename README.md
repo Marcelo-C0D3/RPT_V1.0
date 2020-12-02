@@ -40,6 +40,7 @@ Tabela de conteúdos
 <!--ts-->
    * [Sobre](#sobre)
    * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Especificações](#especificações)
    * [Instalação](#instalação)
    * [Como usar](#como-usar)
       * [Pre Requisitos](#pre-requisitos)
@@ -48,6 +49,8 @@ Tabela de conteúdos
       * [Multiple files](#multiple-files)
       * [Combo](#combo)
 <!--te-->
+
+# Especificações
 
 # Instalação
 
