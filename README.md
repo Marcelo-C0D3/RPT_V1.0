@@ -2,23 +2,17 @@
   <a align="center" href="https://web.satc.edu.br/">
     <img width="200" src="https://user-images.githubusercontent.com/56330822/100784852-95990a80-33ee-11eb-9da4-35ec41f30edc.png">
   </a>
-  <a align="center" href="http://lca.satc.edu.br/">
-    <img width="200" src="https://user-images.githubusercontent.com/56330822/100857346-5bba1980-346b-11eb-93c2-314035debcb7.PNG">
-  </a>
-  <a align="center" href="http://lca.satc.edu.br/">
-    <img width="200" src="https://user-images.githubusercontent.com/56330822/100857346-5bba1980-346b-11eb-93c2-314035debcb7.PNG">
-  </a>
-</h1>
-<h1 align="center">
-  <a align="center" href="https://web.satc.edu.br/graduacao/engenharia-da-computacao/">
+   <a align="center" href="https://web.satc.edu.br/graduacao/engenharia-da-computacao/">
     <img width="200" src="https://user-images.githubusercontent.com/56330822/100856916-c6b72080-346a-11eb-9e72-c71dcadae249.jpg">
   </a>
 </h1>
+
 <h1 align="center">
   <a align="center" href="http://lca.satc.edu.br/">
     <img width="200" src="https://user-images.githubusercontent.com/56330822/100857346-5bba1980-346b-11eb-93c2-314035debcb7.PNG">
   </a>
 </h1>
+
 <h1 align="center">
   <a align="center" href="https://github.com/Marcelo-C0D3/RPT_V1.0">🎙️ Report Pio Telegram - Radio Monitoring</a>
 </h1>
