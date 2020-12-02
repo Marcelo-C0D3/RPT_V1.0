@@ -101,7 +101,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <table align="center" >
   <tr>
-    <td align="center"><a href="https://github.com/marcelo-c0d3"><img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/56330822/100860997-fd436a00-346f-11eb-9508-bf484a40fa4e.jpg" width="100px;" alt=""/><br /><sub><b>Marcelo Loch</b></sub></a><br /><a href="https://www.linkedin.com/in/marcelo-loch-356a23134/" title="Profile">🚀</a>
+    <td align="center"><a href="https://github.com/marcelo-c0d3"><img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/56330822/100860997-fd436a00-346f-11eb-9508-bf484a40fa4e.jpg" width="120px;" alt=""/><br /><sub><b>Marcelo Loch</b></sub></a><br /><a href="https://www.linkedin.com/in/marcelo-loch-356a23134/" title="Profile">👨Professional👨</a>
+    </td>
+    <td align="center"><a href="https://github.com/vagner-rodrigues"><img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/56330822/100861217-4693b980-3470-11eb-8c77-90ca5814acae.jpg" width="120px;" alt=""/><br /><sub><b>Vagner Rodrigues</b></sub></a><br /><a href="https://www.linkedin.com/in/vagner-da-silva-rodrigues-39ab2040/" title="Profile">🎓Professional🎓</a>
     </td>
     
   </tr>
