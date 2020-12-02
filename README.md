@@ -5,7 +5,7 @@
 </h1>
 
 <h1 align="center">
-  <a align="center" href="https://github.com/Marcelo-C0D3/RPT_V1.0">🔗 Report Pio Telegram - Radio Monitoring</a>
+  <a align="center" href="https://github.com/Marcelo-C0D3/RPT_V1.0">🎙️ Report Pio Telegram - Radio Monitoring</a>
 </h1>
 
 
@@ -48,7 +48,7 @@
 
 # 🛠 Tecnologias
 
-# 📋 Especificações
+# 📋  Especificações
 <h1 align="center">
   NodeMCU
  </h1>
@@ -58,7 +58,7 @@
   </a>
 </h1>
 
-# 💻 Instalação
+# 💻  Instalação
 ### Hardware && Conection
 - [x] Espressif8266
 - [x] Placa Esp-12E
