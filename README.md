@@ -180,6 +180,8 @@ Se tudo estiver correto a task bar a seguir deve aparecer na parte inferior do V
     <img width="1000" src="https://user-images.githubusercontent.com/56330822/100918631-7f0ab600-34b7-11eb-9729-dce9bc15010d.PNG">
 </h4>
 
+Se tudo ocorreu corretamente, voce já pode começar a utilizar o monitoramento de radio, junto a api do telegram.
+
 # ➕  Inf+
 ## 👨‍💻  Contribuidores
 
