@@ -93,7 +93,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  </h1>
 <h1 align="center">
   <a align="center" href="https://www.filipeflop.com/produto/bateria-li-ion-18650-2200mah/">
-    <img width="600" src="https://user-images.githubusercontent.com/56330822/100894941-cbe09380-349b-11eb-81dd-9df19f125d16.jpg>
+    <img width="600" src="https://user-images.githubusercontent.com/56330822/100894941-cbe09380-349b-11eb-81dd-9df19f125d16.jpg">
 </h1>
 
 <h1 align="center">
