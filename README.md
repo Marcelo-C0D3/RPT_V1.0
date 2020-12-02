@@ -5,7 +5,7 @@
 </h1>
 
 <h1 align="center">
-  <a align="center" href="https://github.com/Marcelo-C0D3/RPT_V1.0">🇧🇷 🎙️ Report Pio Telegram - Radio Monitoring 🇧🇷</a>
+  <a align="center" href="https://github.com/Marcelo-C0D3/RPT_V1.0">🎙️ Report Pio Telegram - Radio Monitoring</a>
 </h1>
 
 
