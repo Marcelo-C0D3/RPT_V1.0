@@ -46,7 +46,7 @@
    * [Tecnologias](#tecnologias)
    * [Especificações](#especificações)
    * [Como usar](#como-usar)
-   * [More Inf+](#more-inf+)
+   * [More Inf+](#more-inf)
 <!--te-->
 
 # 📝  Sobre
