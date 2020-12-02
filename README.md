@@ -143,7 +143,13 @@ $ cd RPT_V1.0
 # Abra a pasta com o projeto no VS Code.
 $ code .
 
-# Vá até extensões e verifique se a extensão PlatformIO está isntalada, para dar continuidade na execução do projeto.
+# Acesse o arquivo acess.h
+# Modifique os campos SSID com o SSID da rede WiFi.
+# Modifique os campos PASS com o Pasword da rede WiFi.
+# Modifique os campos Token com o Token fornecido pelo Bot do Instagram.
+
+# Vá até extensões e verifique se a extensão PlatformIO está instalada, 
+para dar continuidade na execução do projeto.
 ```
 Se tudo estiver correto a task bar a seguir deve aparecer na parte inferior do VS Code:
 <h4 align="center">
