@@ -97,7 +97,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 👨‍💻 Contribuidores
 
-💜 Um super thanks 👏 para essa galera que fez esse produto sair do campo da ideia e entrar nas lojas de aplicativos :)
+Thank you to very boys!)
 
 <table align="center" >
   <tr>
