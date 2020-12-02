@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/Espressif8266-V.2.6.2-yellow"/>
   <img src="https://img.shields.io/badge/Esp-NodeMCU-green?style=flat"/>
   <img src="https://img.shields.io/badge/Esp-Esp--12E-blue?style=flat"/>
-  <img src="https://img.shields.io/badge/licence-Open-blue?style=flat"/>
+  <img src="https://img.shields.io/badge/licence-MIT-blue?style=flat"/>
   <img src="https://img.shields.io/badge/platform-espressif8266-blue?style=flat"/>
   <img src="https://img.shields.io/badge/framework-Arduino-yellow?style=flat"/>
   <img src="https://img.shields.io/badge/monitor--speed-115200-red?style=flat"/>
@@ -29,13 +29,7 @@
   <img src="https://img.shields.io/badge/NTPClient-V.3.1.0-red?style=flat"/>
 </p>
 
-# Sobre
-###### Este relatório contém conteúdo relacionado as atividades desenvolvidas durante o período de bolsa de estudos na área de pesquisa e desenvolvimento tecnológico da faculdade SATC, localizada no município de Criciúma, Rua Pascoal Meller, 73, bairro Universitário. Nesta bolsa de estudos foi desenvolvido um protótipo experimental de um sistema de monitoramento de emissoras de rádio. O projeto em questão integra hardware e software em um protótipo funcional experimental, com base em um microcontrolador (nodeMCU), que por sua vez faz todo o processamento da informação e a conexão a nuvem, tornando-se um projeto voltado a área de IoT e possibilitando ser integrado a diversas plataformas e serviços.
-
-#### Keywords
-##### ``` Pesquisa, Desenvolvimento, IoT, NodeMCU. ```
-
-Tabela de conteúdos
+# Tabela de conteúdos
 =================
 <!--ts-->
    * [Sobre](#sobre)
@@ -54,6 +48,16 @@ Tabela de conteúdos
     <img width="600" src="https://user-images.githubusercontent.com/56330822/100844664-ea726a80-345a-11eb-8f08-16a0e13dc470.PNG">
   </a>
 </h1>
+
+# Sobre
+###### Este relatório contém conteúdo relacionado as atividades desenvolvidas durante o período de bolsa de estudos na área de pesquisa e desenvolvimento tecnológico da faculdade SATC, localizada no município de Criciúma, Rua Pascoal Meller, 73, bairro Universitário. Nesta bolsa de estudos foi desenvolvido um protótipo experimental de um sistema de monitoramento de emissoras de rádio. O projeto em questão integra hardware e software em um protótipo funcional experimental, com base em um microcontrolador (nodeMCU), que por sua vez faz todo o processamento da informação e a conexão a nuvem, tornando-se um projeto voltado a área de IoT e possibilitando ser integrado a diversas plataformas e serviços.
+
+#### Keywords
+##### ``` Pesquisa, Desenvolvimento, IoT, NodeMCU. ```
+
+# ⚙️ Funcionalidades
+
+# 🛠 Tecnologias
 
 # Instalação
 ### Hardware && Conection
