@@ -55,10 +55,10 @@
 
 # ⚙️  Funcionalidades
   ### Monitoramento
-  - [x] Estado
-  - [x] Relatorio
-  - [x] Alerta
-  - [x] Network Time Protocol
+    - [x] Estado
+    - [x] Relatorio
+    - [x] Alerta
+    - [x] Network Time Protocol
   ### Comunicação
     - [x] Telegram
     - [x] Interação com Bot
