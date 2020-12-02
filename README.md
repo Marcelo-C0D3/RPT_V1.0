@@ -88,6 +88,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
   </a>
 </h1>
 
+<h1 align="center">
+  Charger
+ </h1>
+<h1 align="center">
+  <a align="center" href="https://www.amazon.com/DD28CRTA-3-7-18-5V-Charging-Lithium-Batteries/dp/B07TB7Z2VS">
+    <img width="600" src="https://user-images.githubusercontent.com/56330822/100893831-8f606800-349a-11eb-86b4-3986bda37c56.jpg">
+  </a>
+</h1>
+
 # 💻  The Project
 ### ✅ Hardware && Conection
   - [x] Espressif8266
