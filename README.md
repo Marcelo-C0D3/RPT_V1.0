@@ -99,12 +99,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 💜 Um super thanks 👏 para essa galera que fez esse produto sair do campo da ideia e entrar nas lojas de aplicativos :)
 
-<table>
+<table align="center" >
   <tr>
-    <td align="center"><a href="https://rocketseat.com.br"><img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/2254731?s=400&u=0ba16a79456c2f250e7579cb388fa18c5c2d7d65&v=4" width="100px;" alt=""/><br /><sub><b>Diego Fernandes</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat">👨‍🚀</a></td>    
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/marcelo-c0d3"><img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/56330822/100860479-52cb4700-346f-11eb-9c80-44d0ac7f7f35.jpg" width="100px;" alt=""/><br /><sub><b>Marcelo Loch</b></sub></a><br /><a href="https://rocketseat.com.br/" title="Rocketseat">🚀</a>
+    <td align="center"><a href="https://github.com/marcelo-c0d3"><img style="border-radius: 50%;" src="https://user-images.githubusercontent.com/56330822/100860997-fd436a00-346f-11eb-9508-bf484a40fa4e.jpg" width="100px;" alt=""/><br /><sub><b>Marcelo Loch</b></sub></a><br /><a href="https://www.linkedin.com/in/marcelo-loch-356a23134/" title="Profile">🚀</a>
     </td>
     
   </tr>
