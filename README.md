@@ -174,13 +174,6 @@ Se tudo estiver correto a task bar a seguir deve aparecer na parte inferior do V
     <img width="1000" src="https://user-images.githubusercontent.com/56330822/100918631-7f0ab600-34b7-11eb-9729-dce9bc15010d.PNG">
 </h4>
 
-<h4 align="center">
-  Task Bar PlatformIO
- </h4>
-<h4 align="center">
-    <img width="1000" src="https://user-images.githubusercontent.com/56330822/100918458-42d75580-34b7-11eb-9666-b390ee85cb0f.PNG">
-</h4>
-
 # ➕  Inf+
 ## 👨‍💻  Contribuidores
 
