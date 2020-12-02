@@ -31,8 +31,8 @@
 
 # 📁 Tabela de conteúdos
 <!--ts-->
-   * [Sobre](#sobre)
    * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Sobre](#sobre)
    * [Especificações](#especificações)
    * [Instalação](#instalação)
    * [Como usar](#como-usar)
