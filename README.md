@@ -3,7 +3,7 @@
     <img width="200" src="https://user-images.githubusercontent.com/56330822/100857906-0c281d80-346c-11eb-99ba-c33c29039025.jpg">
   </a>
    <a align="center" href="https://web.satc.edu.br/graduacao/engenharia-da-computacao/">
-    <img width="200" src="https://user-images.githubusercontent.com/56330822/100856916-c6b72080-346a-11eb-9e72-c71dcadae249.jpg">
+    <img width="100" src="https://user-images.githubusercontent.com/56330822/100856916-c6b72080-346a-11eb-9e72-c71dcadae249.jpg">
   </a>
 </h1>
 
