@@ -51,10 +51,10 @@ Tabela de conteúdos
 <!--te-->
 
 # Especificações
-## NodeMCU
 <h1 align="center">
+  NodeMCU
   <a align="center" href="https://www.nodemcu.com/index_en.html">
-    <img width="200" src="https://user-images.githubusercontent.com/56330822/100844664-ea726a80-345a-11eb-8f08-16a0e13dc470.PNG">
+    <img width="600" src="https://user-images.githubusercontent.com/56330822/100844664-ea726a80-345a-11eb-8f08-16a0e13dc470.PNG">
   </a>
 </h1>
 
