@@ -46,7 +46,7 @@
    * [Tecnologias](#tecnologias)
    * [Especificações](#--especificações)
    * [Como usar](#como-usar)
-   * [Inf+](#inf)
+   * [Inf+](#--inf)
 <!--te-->
 
 # 📝  Sobre
@@ -102,7 +102,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
   - [x] CT Bot V.2.1.3
   - [x] NTP Client V.3.1.0
 
-# Como Usar
+# 🧭  Como Usar
 
 
 # ➕  Inf+
