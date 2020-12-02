@@ -47,6 +47,14 @@
 # ⚙️ Funcionalidades
 
 # 🛠 Tecnologias
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [C++](https://devdocs.io/cpp/)
+- [VS Code](https://code.visualstudio.com/)
+- [PlatformIO](https://platformio.org/)
+- [Telegram Bot](https://core.telegram.org/bots)
+- [Arduino](https://www.arduino.cc/)
+- [NodeMCU](https://www.nodemcu.com/index_en.html)
 
 # 📋  Especificações
 <h1 align="center">
