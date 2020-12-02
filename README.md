@@ -54,18 +54,18 @@
 ##### ``` Pesquisa, Desenvolvimento, IoT, NodeMCU. ```
 
 # ⚙️  Funcionalidades
-  ### Monitoramento
+  ### ✅ Monitoramento
    - [x] Estado
    - [x] Relatorio
    - [x] Alerta
    - [x] Network Time Protocol
-  ### Comunicação
+  ### ✅ Comunicação
    - [x] Telegram
    - [x] Interação com Bot
    - [x] Grupo de Alerta
-  ### Analise & Filtros
-   -- [x] Filtro de Média
-   -- [x] Analise de Onda
+  ### ✅ Analise & Filtros
+   - [x] Filtro de Média
+   - [x] Analise de Onda
 # 🛠  Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -87,15 +87,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
 </h1>
 
 # 💻  The Project
-### Hardware && Conection
+### ✅ Hardware && Conection
   - [x] Espressif8266
   - [x] Placa Esp-12E
   - [x] Baud Rate 115200
-### Software && Version
+### ✅ Software && Version
   - [x] VS Code
   - [x] PlatformIO V.2.20
   - [x] Esp8266 Core V.2.6.2
-### dependencies
+### ✅ dependencies
   - [x] Arduino Json V.5.13.2
   - [x] CT Bot V.2.1.3
   - [x] NTP Client V.3.1.0
