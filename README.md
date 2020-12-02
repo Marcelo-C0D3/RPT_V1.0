@@ -42,9 +42,11 @@
 <!--ts-->
    * [Tabela de Conteudo](#tabela-de-conteudo)
    * [Sobre](#sobre)
+   * [Funcionalidades](#funcionalidades)
+   * [Tecnologias](#tecnologias)
    * [Especificações](#especificações)
-   * [Instalação](#instalação)
    * [Como usar](#como-usar)
+   * [More Inf+](#more-inf+)
 <!--te-->
 
 # 📝  Sobre
@@ -103,6 +105,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 # Como Usar
 
 
+# More Inf+
 ## 👨‍💻  Contribuidores
 
 Agradecimentos a equipe de contribuidores que lutou até o fim  deste projeto ->  💖💖💖💖
@@ -117,7 +120,7 @@ Agradecimentos a equipe de contribuidores que lutou até o fim  deste projeto ->
   </tr>
 </table>
 
-# 📝  Licença
+## 📝  Licença
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
