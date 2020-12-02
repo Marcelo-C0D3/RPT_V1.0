@@ -55,17 +55,17 @@
 
 # ⚙️  Funcionalidades
   ### Monitoramento
-    - [x] Estado
-    - [x] Relatorio
-    - [x] Alerta
-    - [x] Network Time Protocol
+   - [x] Estado
+   - [x] Relatorio
+   - [x] Alerta
+   - [x] Network Time Protocol
   ### Comunicação
-    - [x] Telegram
-    - [x] Interação com Bot
-    - [x] Grupo de Alerta
+   - [x] Telegram
+   - [x] Interação com Bot
+   - [x] Grupo de Alerta
   ### Analise & Filtros
-    - [x] Filtro de Média
-    - [x] Analise de Onda
+   -- [x] Filtro de Média
+   -- [x] Analise de Onda
 # 🛠  Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
 
