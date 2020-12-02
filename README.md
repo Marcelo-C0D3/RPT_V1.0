@@ -135,16 +135,22 @@ Voce pode usar o VS Code como editor para trabalhar com o código e ainda execut
 Execute o bash (opcional).
 
 # Clone este repositório
-$ git clone <https://github.com/Marcelo-C0D3/RPT_V1.0>
+$ git clone https://github.com/Marcelo-C0D3/RPT_V1.0
 
 # Acesse a pasta do projeto no terminal/cmd/bash
 $ cd RPT_V1.0
 
-# Abra a pasta com o projeto nbo VS Code.
+# Abra a pasta com o projeto no VS Code.
 $ code .
 
-# Execute a aplicação
-
+# Vá até extensões e verifique se a extensão PlatformIO está isntalada, para dar continuidade na execução do projeto.
+Se tudo estiver correto a task bar a seguir deve aparecer na parte inferior do VS Code:
+<h4 align="center">
+  Task Bar PlatformIO
+ </h4>
+<h1 align="center">
+    <img width="600" src="https://user-images.githubusercontent.com/56330822/100916968-479b0a00-34b5-11eb-9e6f-88054d4b0778.PNG">
+</h1>
 ```
 
 # ➕  Inf+
