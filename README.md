@@ -38,7 +38,7 @@
    * [Como usar](#como-usar)
 <!--te-->
 
-# 📋 Sobre
+# 📝 Sobre
 ###### Este relatório contém conteúdo relacionado as atividades desenvolvidas durante o período de bolsa de estudos na área de pesquisa e desenvolvimento tecnológico da faculdade SATC, localizada no município de Criciúma, Rua Pascoal Meller, 73, bairro Universitário. Nesta bolsa de estudos foi desenvolvido um protótipo experimental de um sistema de monitoramento de emissoras de rádio. O projeto em questão integra hardware e software em um protótipo funcional experimental, com base em um microcontrolador (nodeMCU), que por sua vez faz todo o processamento da informação e a conexão a nuvem, tornando-se um projeto voltado a área de IoT e possibilitando ser integrado a diversas plataformas e serviços.
 
 #### Keywords
@@ -48,7 +48,7 @@
 
 # 🛠 Tecnologias
 
-# Especificações
+# 📋 Especificações
 <h1 align="center">
   NodeMCU
  </h1>
