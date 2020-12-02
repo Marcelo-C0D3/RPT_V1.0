@@ -57,17 +57,17 @@ Tabela de conteúdos
 
 # Instalação
 ### Hardware && Conection
-- [X] Espressif8266
-- [X] Placa Esp-12E
-- [X] Baud Rate 115200
+- [x] Espressif8266
+- [x] Placa Esp-12E
+- [x] Baud Rate 115200
 ### Software && Version
-- [X] VS Code
-- [X] PlatformIO V.2.20
-- [X] Esp8266 Core V.2.6.2
+- [x] VS Code
+- [x] PlatformIO V.2.20
+- [x] Esp8266 Core V.2.6.2
 ### Dependencias
-- [X] Arduino Json V.5.13.2
-- [X] CT Bot V.2.1.3
-- [X] NTP Client V.3.1.0
+- [x] Arduino Json V.5.13.2
+- [x] CT Bot V.2.1.3
+- [x] NTP Client V.3.1.0
 
 # Como Usar
 
