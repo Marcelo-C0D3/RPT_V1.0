@@ -58,7 +58,7 @@
   </a>
 </h1>
 
-# Instalação
+# 💻 Instalação
 ### Hardware && Conection
 - [x] Espressif8266
 - [x] Placa Esp-12E
