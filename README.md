@@ -3,7 +3,11 @@
     <img width="200" src="https://user-images.githubusercontent.com/56330822/100784852-95990a80-33ee-11eb-9da4-35ec41f30edc.png">
   </a>
 </h1>
-
+<h1 align="center">
+  <a align="center" href="https://web.satc.edu.br/graduacao/engenharia-da-computacao/">
+    <img width="200" src="![images](https://user-images.githubusercontent.com/56330822/100856916-c6b72080-346a-11eb-9e72-c71dcadae249.jpg)">
+  </a>
+</h1>
 <h1 align="center">
   <a align="center" href="https://github.com/Marcelo-C0D3/RPT_V1.0">🎙️ Report Pio Telegram - Radio Monitoring</a>
 </h1>
