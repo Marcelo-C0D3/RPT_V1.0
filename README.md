@@ -144,6 +144,7 @@ $ cd RPT_V1.0
 $ code .
 
 # Vá até extensões e verifique se a extensão PlatformIO está isntalada, para dar continuidade na execução do projeto.
+```
 Se tudo estiver correto a task bar a seguir deve aparecer na parte inferior do VS Code:
 <h4 align="center">
   Task Bar PlatformIO
@@ -151,7 +152,6 @@ Se tudo estiver correto a task bar a seguir deve aparecer na parte inferior do V
 <h1 align="center">
     <img width="600" src="https://user-images.githubusercontent.com/56330822/100916968-479b0a00-34b5-11eb-9e6f-88054d4b0778.PNG">
 </h1>
-```
 
 # ➕  Inf+
 ## 👨‍💻  Contribuidores
