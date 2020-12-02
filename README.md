@@ -46,7 +46,7 @@
    * [Tecnologias](#tecnologias)
    * [Especificações](#--especificações)
    * [Como usar](#como-usar)
-   * [More Inf+](#more-inf)
+   * [Inf+](#inf)
 <!--te-->
 
 # 📝  Sobre
@@ -105,7 +105,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 # Como Usar
 
 
-# More Inf+
+# ➕  Inf+
 ## 👨‍💻  Contribuidores
 
 Agradecimentos a equipe de contribuidores que lutou até o fim  deste projeto ->  💖💖💖💖
